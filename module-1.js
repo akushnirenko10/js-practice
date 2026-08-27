@@ -265,16 +265,16 @@
 
 // Створи `getDomain(email)`, яка повертає частину після `@`. Потім створи `haveSameDomain(firstEmail, secondEmail)`, яка порівнює домени в нижньому регістрі. Перевір `'one@School.ORG'` і `'two@school.org'`.
 
-function getDomain(email) {
-  const atIndex = email.indexOf('@');
-  const normalizeDomain = email.slice(atIndex + 1).toLowerCase();
+// function getDomain(email) {
+//   const atIndex = email.indexOf('@');
+//   const normalizeDomain = email.slice(atIndex + 1).toLowerCase();
 
-  return normalizeDomain;
-}
+//   return normalizeDomain;
+// }
 
-function haveSameDomain(firstEmail, secondEmail) {
-  return getDomain(firstEmail) === getDomain(secondEmail);
-}
+// function haveSameDomain(firstEmail, secondEmail) {
+//   return getDomain(firstEmail) === getDomain(secondEmail);
+// }
 
-console.log(haveSameDomain('one@School.ORG', 'two@school.org'));
-console.log(haveSameDomain('one@School.ORG', 'two@school.asdorg'));
+// console.log(haveSameDomain('one@School.ORG', 'two@school.org'));
+// console.log(haveSameDomain('one@School.ORG', 'two@school.asdorg'));
