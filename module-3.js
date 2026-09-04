@@ -301,15 +301,15 @@
 
 // Створи `combineLabels(names, values)`. Для кожного індексу сформуй рядок `Назва: значення`. Опрацюй лише спільну довжину масивів. Перевір `['Views', 'Likes', 'Comments']` і `[1200, 85]`.
 
-const combineLabels = function (names, values) {
-  const length = names.length < values.length ? names.length : values.length;
-  const arr = [];
+// const combineLabels = function (names, values) {
+//   const length = names.length < values.length ? names.length : values.length;
+//   const arr = [];
 
-  for (let i = 0; i < length; i++) {
-    arr.push(`${names[i]}: ${values[i]}`);
-  }
+//   for (let i = 0; i < length; i++) {
+//     arr.push(`${names[i]}: ${values[i]}`);
+//   }
 
-  return arr;
-};
+//   return arr;
+// };
 
-console.log(combineLabels(['Views', 'Likes', 'Comments'], [1200, 85, 6]));
+// console.log(combineLabels(['Views', 'Likes', 'Comments'], [1200, 85, 6]));
